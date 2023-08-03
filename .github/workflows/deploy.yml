@@ -15,8 +15,8 @@ jobs:
 
       - name: Install and Build 🔧 # This project is built using npm and outputs the result to the 'build' folder.
         run: |
-          npm ci
-          npm run build
+          yarn ci
+          yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
