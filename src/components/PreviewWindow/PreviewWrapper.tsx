@@ -22,7 +22,7 @@ const PreviewWrapper = ({ children }: PreviewWrapperProps) => {
       <ThemeWrapper>
         <Box sx={{
           bgcolor: "#212121",
-          p: 2,
+          p: 1,
           height: 1,
         }}>
           <PreviewBackground>{children}</PreviewBackground>
