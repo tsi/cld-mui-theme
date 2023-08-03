@@ -118,8 +118,9 @@ export default function AppBarExample({ onDrawerButtonClick }: Props) {
             <Typography sx={{
               display: { xs: "none", sm: "block" },
             }} variant="h6">
-              Cloudinary
+              CLD-MUI Design System
             </Typography>
+            <Box sx={{ flexGrow: 1 }} />
             <Box sx={{
               position: "relative",
               borderRadius: 1,
@@ -167,7 +168,6 @@ export default function AppBarExample({ onDrawerButtonClick }: Props) {
                 inputProps={{ "aria-label": "search" }}
               />
             </Box>
-            <Box sx={{ flexGrow: 1 }} />
             <Box sx={{
               display: { xs: "none", md: "flex" },
             }}>
