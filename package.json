@@ -3,9 +3,16 @@
   "private": true,
   "description": "A comprehensive tool to customize themes for Material-UI",
   "version": "5.0.0",
-  "keywords": ["MUI", "MUI v5", "Material-UI", "MUI Theme Creator"],
+  "keywords": [
+    "MUI",
+    "MUI v5",
+    "Material-UI",
+    "MUI Theme Creator"
+  ],
   "author": "Brian Reynolds <brireyn@gmail.com>",
-  "contributors": ["Zenoo (https://github.com/Zenoo)"],
+  "contributors": [
+    "Zenoo (https://github.com/Zenoo)"
+  ],
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@emotion/react": "^11.9.0",

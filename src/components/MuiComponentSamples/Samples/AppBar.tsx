@@ -108,7 +108,7 @@ export default function AppBarExample({ onDrawerButtonClick }: Props) {
           <Toolbar>
             <IconButton
               edge="start"
-              sx={{ mr: 2 }}
+              sx={{ mr: 1 }}
               color="inherit"
               aria-label="open drawer"
               onClick={onDrawerButtonClick}
@@ -118,7 +118,7 @@ export default function AppBarExample({ onDrawerButtonClick }: Props) {
             <Typography sx={{
               display: { xs: "none", sm: "block" },
             }} variant="h6">
-              Material-UI
+              Cloudinary
             </Typography>
             <Box sx={{
               position: "relative",
@@ -139,7 +139,7 @@ export default function AppBarExample({ onDrawerButtonClick }: Props) {
             }}>
               <Box sx={{
                 py: 0,
-                px: 2,
+                px: 1,
                 height: 1,
                 position: "absolute",
                 pointerEvents: "none",
@@ -154,9 +154,9 @@ export default function AppBarExample({ onDrawerButtonClick }: Props) {
                 sx={{
                   color: "inherit",
                   '& .MuiInputBase-input': {
-                    py: 1,
-                    pr: 1,
-                    pl: (theme) => `calc(1em + ${theme.spacing(4)})`,
+                    py: 0.5,
+                    pr: 0.5,
+                    pl: (theme) => `calc(1em + ${theme.spacing(2)})`,
                     transition: (theme) => theme.transitions.create("width"),
                     width: {
                       xs: 1,

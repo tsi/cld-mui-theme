@@ -25,7 +25,7 @@ const Header = (props: AppBarProps) => {
             variant="h6"
             sx={{ typography: "h6", lineHeight: "1.25rem" }}
           >
-            MUI Theme Creator
+            MUI Cloudinary Theme Editor
           </Typography>
           <Typography
             variant="caption"
@@ -42,7 +42,7 @@ const Header = (props: AppBarProps) => {
             </Link>
           </Typography>
         </div>
-        <div>
+        {/* <div>
           <TutorialButton />
           <IconButton
             href="https://github.com/Zenoo/mui-theme-creator"
@@ -52,7 +52,7 @@ const Header = (props: AppBarProps) => {
           >
             <GitHubIcon />
           </IconButton>
-        </div>
+        </div> */}
       </Toolbar>
     </AppBar>
   )
